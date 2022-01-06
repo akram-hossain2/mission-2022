@@ -17,15 +17,11 @@ h1{
     border-left: 4px solid;
     border-color: tomato;
     border-image-slice: 1;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
 }
-
 .flexible-container{
     display: flex;
     margin-bottom: 150px;
+    margin-top:60px;
 }
 .half-width{
     width: 50%;
@@ -87,4 +83,23 @@ h1{
     border-radius: 15px;
     background-color: lightpink;
 }
-
+.header{
+    text-align: center;
+    font-size: 60px;
+}
+.header2{
+    text-align: left;
+    font-size: 40px;
+    color: tomato;
+}
+.img1{
+    height: 80%;
+    width: 90%;
+}
+.footer{
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    background-color: black;
+}
